@@ -1,28 +1,21 @@
-//
-//  twoViewController.m
-//  runtime
-//
-//  Created by qianjianeng on 16/4/13.
-//  Copyright © 2016年 SF. All rights reserved.
-//
 
-#import "twoViewController.h"
+
+#import "ViewController2.h"
 #import "Person.h"
 #import <objc/runtime.h>
-
-@interface twoViewController ()
+@interface ViewController2 ()
 
 @property (nonatomic, strong) Person *person;
 @property (weak, nonatomic) IBOutlet UITextField *textview;
 
 @end
 
-@implementation twoViewController
+@implementation ViewController2
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.person = [Person new];
-    
+    [self sayFrom];
 }
 
 - (void)sayFrom

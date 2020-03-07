@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B205CE624134BFB006A26E7 /* Student+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B205CE024134BFB006A26E7 /* Student+AvoidCrash.m */; };
+		4B205CE724134BFB006A26E7 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B205CE224134BFB006A26E7 /* Student.m */; };
+		4B205CE824134BFB006A26E7 /* StudentTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B205CE324134BFB006A26E7 /* StudentTool.m */; };
+		4B3F971C241246A400ADD14B /* UIImageView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F971B241246A400ADD14B /* UIImageView+extension.m */; };
+		4B3F9725241277EE00ADD14B /* ViewController8.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F9724241277EE00ADD14B /* ViewController8.m */; };
 		C205086D1CBD481F0026AC7A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205086C1CBD481F0026AC7A /* TableViewController.m */; };
-		C288A6581CC10AC900BC7B0C /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C288A6571CC10AC900BC7B0C /* FourViewController.m */; };
-		C288A65B1CC10AD400BC7B0C /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C288A65A1CC10AD400BC7B0C /* FiveViewController.m */; };
-		C288A65E1CC10AE000BC7B0C /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C288A65D1CC10AE000BC7B0C /* SixViewController.m */; };
-		C288A6611CC10AEE00BC7B0C /* SevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C288A6601CC10AEE00BC7B0C /* SevenViewController.m */; };
-		C28D627C1CBDE305001D0518 /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28D627B1CBDE305001D0518 /* oneViewController.m */; };
-		C28D627F1CBDE318001D0518 /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28D627E1CBDE318001D0518 /* twoViewController.m */; };
-		C28D62821CBDE327001D0518 /* threeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28D62811CBDE327001D0518 /* threeViewController.m */; };
+		C288A6581CC10AC900BC7B0C /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = C288A6571CC10AC900BC7B0C /* ViewController4.m */; };
+		C288A65B1CC10AD400BC7B0C /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = C288A65A1CC10AD400BC7B0C /* ViewController5.m */; };
+		C288A65E1CC10AE000BC7B0C /* ViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = C288A65D1CC10AE000BC7B0C /* ViewController6.m */; };
+		C288A6611CC10AEE00BC7B0C /* ViewController7.m in Sources */ = {isa = PBXBuildFile; fileRef = C288A6601CC10AEE00BC7B0C /* ViewController7.m */; };
+		C28D627C1CBDE305001D0518 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = C28D627B1CBDE305001D0518 /* ViewController1.m */; };
+		C28D627F1CBDE318001D0518 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C28D627E1CBDE318001D0518 /* ViewController2.m */; };
+		C28D62821CBDE327001D0518 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = C28D62811CBDE327001D0518 /* ViewController3.m */; };
 		C28FABAC1CBCE873007FB54C /* NSObject+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FABAB1CBCE873007FB54C /* NSObject+Item.m */; };
 		C28FABAF1CBCEB82007FB54C /* HGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FABAE1CBCEB82007FB54C /* HGUser.m */; };
 		C2BEFF991CC2323F0047CA1F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BEFF981CC2323F0047CA1F /* Person.m */; };
@@ -30,22 +35,32 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B205CE024134BFB006A26E7 /* Student+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+AvoidCrash.m"; sourceTree = "<group>"; };
+		4B205CE124134BFB006A26E7 /* StudentTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentTool.h; sourceTree = "<group>"; };
+		4B205CE224134BFB006A26E7 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		4B205CE324134BFB006A26E7 /* StudentTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentTool.m; sourceTree = "<group>"; };
+		4B205CE424134BFB006A26E7 /* Student+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+AvoidCrash.h"; sourceTree = "<group>"; };
+		4B205CE524134BFB006A26E7 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		4B3F971A241246A400ADD14B /* UIImageView+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+extension.h"; sourceTree = "<group>"; };
+		4B3F971B241246A400ADD14B /* UIImageView+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+extension.m"; sourceTree = "<group>"; };
+		4B3F9723241277EE00ADD14B /* ViewController8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController8.h; sourceTree = "<group>"; };
+		4B3F9724241277EE00ADD14B /* ViewController8.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController8.m; sourceTree = "<group>"; };
 		C205086B1CBD481F0026AC7A /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		C205086C1CBD481F0026AC7A /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		C288A6561CC10AC900BC7B0C /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
-		C288A6571CC10AC900BC7B0C /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
-		C288A6591CC10AD400BC7B0C /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
-		C288A65A1CC10AD400BC7B0C /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
-		C288A65C1CC10AE000BC7B0C /* SixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
-		C288A65D1CC10AE000BC7B0C /* SixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
-		C288A65F1CC10AEE00BC7B0C /* SevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenViewController.h; sourceTree = "<group>"; };
-		C288A6601CC10AEE00BC7B0C /* SevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenViewController.m; sourceTree = "<group>"; };
-		C28D627A1CBDE305001D0518 /* oneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneViewController.h; sourceTree = "<group>"; };
-		C28D627B1CBDE305001D0518 /* oneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneViewController.m; sourceTree = "<group>"; };
-		C28D627D1CBDE318001D0518 /* twoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
-		C28D627E1CBDE318001D0518 /* twoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
-		C28D62801CBDE327001D0518 /* threeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threeViewController.h; sourceTree = "<group>"; };
-		C28D62811CBDE327001D0518 /* threeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeViewController.m; sourceTree = "<group>"; };
+		C288A6561CC10AC900BC7B0C /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		C288A6571CC10AC900BC7B0C /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+		C288A6591CC10AD400BC7B0C /* ViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
+		C288A65A1CC10AD400BC7B0C /* ViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
+		C288A65C1CC10AE000BC7B0C /* ViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController6.h; sourceTree = "<group>"; };
+		C288A65D1CC10AE000BC7B0C /* ViewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController6.m; sourceTree = "<group>"; };
+		C288A65F1CC10AEE00BC7B0C /* ViewController7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController7.h; sourceTree = "<group>"; };
+		C288A6601CC10AEE00BC7B0C /* ViewController7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController7.m; sourceTree = "<group>"; };
+		C28D627A1CBDE305001D0518 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		C28D627B1CBDE305001D0518 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		C28D627D1CBDE318001D0518 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		C28D627E1CBDE318001D0518 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		C28D62801CBDE327001D0518 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		C28D62811CBDE327001D0518 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		C28FABAA1CBCE873007FB54C /* NSObject+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Item.h"; sourceTree = "<group>"; };
 		C28FABAB1CBCE873007FB54C /* NSObject+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Item.m"; sourceTree = "<group>"; };
 		C28FABAD1CBCEB82007FB54C /* HGUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGUser.h; sourceTree = "<group>"; };
@@ -81,6 +96,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B205CDF24134BFB006A26E7 /* AvoidCrashModel */ = {
+			isa = PBXGroup;
+			children = (
+				4B205CE024134BFB006A26E7 /* Student+AvoidCrash.m */,
+				4B205CE124134BFB006A26E7 /* StudentTool.h */,
+				4B205CE224134BFB006A26E7 /* Student.m */,
+				4B205CE324134BFB006A26E7 /* StudentTool.m */,
+				4B205CE424134BFB006A26E7 /* Student+AvoidCrash.h */,
+				4B205CE524134BFB006A26E7 /* Student.h */,
+			);
+			path = AvoidCrashModel;
+			sourceTree = "<group>";
+		};
 		C20508681CBD47D80026AC7A /* model */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +124,8 @@
 				C28FABAB1CBCE873007FB54C /* NSObject+Item.m */,
 				C2BEFF9D1CC256F90047CA1F /* UIButton+count.h */,
 				C2BEFF9E1CC256F90047CA1F /* UIButton+count.m */,
+				4B3F971A241246A400ADD14B /* UIImageView+extension.h */,
+				4B3F971B241246A400ADD14B /* UIImageView+extension.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -105,20 +135,23 @@
 			children = (
 				C205086B1CBD481F0026AC7A /* TableViewController.h */,
 				C205086C1CBD481F0026AC7A /* TableViewController.m */,
-				C28D627A1CBDE305001D0518 /* oneViewController.h */,
-				C28D627B1CBDE305001D0518 /* oneViewController.m */,
-				C28D627D1CBDE318001D0518 /* twoViewController.h */,
-				C28D627E1CBDE318001D0518 /* twoViewController.m */,
-				C28D62801CBDE327001D0518 /* threeViewController.h */,
-				C28D62811CBDE327001D0518 /* threeViewController.m */,
-				C288A6561CC10AC900BC7B0C /* FourViewController.h */,
-				C288A6571CC10AC900BC7B0C /* FourViewController.m */,
-				C288A6591CC10AD400BC7B0C /* FiveViewController.h */,
-				C288A65A1CC10AD400BC7B0C /* FiveViewController.m */,
-				C288A65C1CC10AE000BC7B0C /* SixViewController.h */,
-				C288A65D1CC10AE000BC7B0C /* SixViewController.m */,
-				C288A65F1CC10AEE00BC7B0C /* SevenViewController.h */,
-				C288A6601CC10AEE00BC7B0C /* SevenViewController.m */,
+				C28D627A1CBDE305001D0518 /* ViewController1.h */,
+				C28D627B1CBDE305001D0518 /* ViewController1.m */,
+				C28D627D1CBDE318001D0518 /* ViewController2.h */,
+				C28D627E1CBDE318001D0518 /* ViewController2.m */,
+				C28D62801CBDE327001D0518 /* ViewController3.h */,
+				C28D62811CBDE327001D0518 /* ViewController3.m */,
+				C288A6561CC10AC900BC7B0C /* ViewController4.h */,
+				C288A6571CC10AC900BC7B0C /* ViewController4.m */,
+				C288A6591CC10AD400BC7B0C /* ViewController5.h */,
+				C288A65A1CC10AD400BC7B0C /* ViewController5.m */,
+				C288A65C1CC10AE000BC7B0C /* ViewController6.h */,
+				C288A65D1CC10AE000BC7B0C /* ViewController6.m */,
+				C288A65F1CC10AEE00BC7B0C /* ViewController7.h */,
+				C288A6601CC10AEE00BC7B0C /* ViewController7.m */,
+				4B3F9723241277EE00ADD14B /* ViewController8.h */,
+				4B3F9724241277EE00ADD14B /* ViewController8.m */,
+				4B205CDF24134BFB006A26E7 /* AvoidCrashModel */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -204,6 +237,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -235,22 +269,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C288A65B1CC10AD400BC7B0C /* FiveViewController.m in Sources */,
+				C288A65B1CC10AD400BC7B0C /* ViewController5.m in Sources */,
 				C2DEA99E1CBBB8970024C7F7 /* ViewController.m in Sources */,
 				C28FABAF1CBCEB82007FB54C /* HGUser.m in Sources */,
-				C28D627F1CBDE318001D0518 /* twoViewController.m in Sources */,
+				C28D627F1CBDE318001D0518 /* ViewController2.m in Sources */,
 				C2BEFF9F1CC256F90047CA1F /* UIButton+count.m in Sources */,
+				4B205CE824134BFB006A26E7 /* StudentTool.m in Sources */,
 				C2DEA99B1CBBB8970024C7F7 /* AppDelegate.m in Sources */,
-				C288A65E1CC10AE000BC7B0C /* SixViewController.m in Sources */,
-				C288A6611CC10AEE00BC7B0C /* SevenViewController.m in Sources */,
+				C288A65E1CC10AE000BC7B0C /* ViewController6.m in Sources */,
+				C288A6611CC10AEE00BC7B0C /* ViewController7.m in Sources */,
+				4B3F9725241277EE00ADD14B /* ViewController8.m in Sources */,
+				4B205CE624134BFB006A26E7 /* Student+AvoidCrash.m in Sources */,
 				C28FABAC1CBCE873007FB54C /* NSObject+Item.m in Sources */,
+				4B205CE724134BFB006A26E7 /* Student.m in Sources */,
 				C2DEA9AF1CBBB96C0024C7F7 /* Movie.m in Sources */,
+				4B3F971C241246A400ADD14B /* UIImageView+extension.m in Sources */,
 				C205086D1CBD481F0026AC7A /* TableViewController.m in Sources */,
-				C28D62821CBDE327001D0518 /* threeViewController.m in Sources */,
+				C28D62821CBDE327001D0518 /* ViewController3.m in Sources */,
 				C2DEA9981CBBB8970024C7F7 /* main.m in Sources */,
 				C2BEFF991CC2323F0047CA1F /* Person.m in Sources */,
-				C288A6581CC10AC900BC7B0C /* FourViewController.m in Sources */,
-				C28D627C1CBDE305001D0518 /* oneViewController.m in Sources */,
+				C288A6581CC10AC900BC7B0C /* ViewController4.m in Sources */,
+				C28D627C1CBDE305001D0518 /* ViewController1.m in Sources */,
 				C2BEFF9C1CC23EB70047CA1F /* Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

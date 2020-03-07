@@ -1,18 +1,10 @@
-//
-//  FiveViewController.m
-//  runtime
-//
-//  Created by qianjianeng on 16/4/15.
-//  Copyright © 2016年 SF. All rights reserved.
-//
 
-#import "FiveViewController.h"
+
+#import "ViewController5.h"
 #import "UIButton+count.h"
-@interface FiveViewController ()
 
-@end
 
-@implementation FiveViewController
+@implementation ViewController5
 
 - (void)viewDidLoad {
     [super viewDidLoad];

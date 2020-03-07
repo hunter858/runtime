@@ -1,10 +1,4 @@
-//
-//  ViewController.m
-//  runtime
-//
-//  Created by qianjianeng on 16/4/11.
-//  Copyright © 2016年 SF. All rights reserved.
-//
+
 
 #import "ViewController.h"
 #import "TableViewController.h"
@@ -19,7 +13,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-
+    self.view.backgroundColor = [UIColor whiteColor];
     
     
 }

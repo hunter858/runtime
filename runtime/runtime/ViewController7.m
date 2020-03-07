@@ -1,22 +1,15 @@
-//
-//  SevenViewController.m
-//  runtime
-//
-//  Created by qianjianeng on 16/4/15.
-//  Copyright © 2016年 SF. All rights reserved.
-//
 
-#import "SevenViewController.h"
+
+#import "ViewController7.h"
 #import "Movie.h"
-@interface SevenViewController ()
 
-@end
 
-@implementation SevenViewController
+@implementation ViewController7
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
     Movie *m = [Movie new];
     m.movieName = @"aaaaaaaa";
     m.movieId = @"1222331";

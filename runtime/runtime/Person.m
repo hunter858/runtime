@@ -1,12 +1,12 @@
-//
-//  Person.m
-//  runtime
-//
-//  Created by qianjianeng on 16/4/16.
-//  Copyright © 2016年 SF. All rights reserved.
-//
+
 
 #import "Person.h"
+@interface Person ()
+{
+    NSString *privateName;
+}
+@end
+
 
 @implementation Person
 
@@ -16,6 +16,21 @@
 }
 - (NSString *)sayName
 {
-    return @"my name is xiaoMing";
+    return @"my name is pengpeng";
 }
+
+-(void)updatePrivateName:(NSString *)name{
+    self ->privateName = name;
+    NSLog(@"NSLog privateName Value is %@",self->privateName);
+}
+
+/* 私有方法*/
+-(void)private_func{
+    NSLog(@"privte function");
+}
+
++(void)PersonSayHello{
+    NSLog(@"say hello");
+}
+
 @end

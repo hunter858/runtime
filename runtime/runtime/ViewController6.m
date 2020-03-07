@@ -1,21 +1,16 @@
-//
-//  SixViewController.m
-//  runtime
-//
-//  Created by qianjianeng on 16/4/15.
-//  Copyright © 2016年 SF. All rights reserved.
-//
 
-#import "SixViewController.h"
+
+#import "ViewController6.h"
 #import "Movie.h"
-@interface SixViewController ()
+@interface ViewController6 ()
 @property (nonatomic, retain) NSMutableArray *allDataArray;
 @end
 
-@implementation SixViewController
+@implementation ViewController6
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     
     self.view.backgroundColor = [UIColor whiteColor];
      self.allDataArray = [NSMutableArray array];

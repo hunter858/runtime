@@ -1,19 +1,14 @@
-//
-//  TableViewController.m
-//  runtime
-//
-//  Created by qianjianeng on 16/4/12.
-//  Copyright © 2016年 SF. All rights reserved.
-//
+
 
 #import "TableViewController.h"
-#import "oneViewController.h"
-#import "twoViewController.h"
-#import "threeViewController.h"
-#import "FourViewController.h"
-#import "FiveViewController.h"
-#import "SixViewController.h"
-#import "SevenViewController.h"
+#import "ViewController1.h"
+#import "ViewController2.h"
+#import "ViewController3.h"
+#import "ViewController4.h"
+#import "ViewController5.h"
+#import "ViewController6.h"
+#import "ViewController7.h"
+#import "ViewController8.h"
 @interface TableViewController ()
 
 @property (nonatomic, strong) NSArray *dataSource;
@@ -38,11 +33,12 @@
                     @"拦截并替换方法",
                     @"在方法上增加额外功能",
                     @"实现NSCoding的自动归档和解档",
-                    @"实现字典转模型的自动转换"
+                    @"实现字典转模型的自动转换",
+                    @"解救程序崩溃的第一步",
                     ];
 
     self.tableView.tableFooterView = [UIView new];
-    
+    [self.tableView indexPathsForVisibleRows];
 }
 
 
@@ -60,20 +56,13 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *cellIdentifier = @"cellIdentifier";
-
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    
-    //2. 判断是否有可重用的，如果没有，则自己创建
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier];
     }
-    
-    
     cell.textLabel.text = _dataSource[indexPath.row];
-    
     tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
-    
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
@@ -89,46 +78,55 @@
         case 0:{
             
              //2.从storyBoard中获取控制器
-            oneViewController *oneVC = (oneViewController *)[mainStoryBoard instantiateViewControllerWithIdentifier:@"onevciden"];
+            ViewController1 *oneVC = (ViewController1 *)[mainStoryBoard instantiateViewControllerWithIdentifier:@"onevciden"];
             //3.推出
             [self.navigationController pushViewController:oneVC animated:YES];
             break;
         }
         case 1:{
 
-            twoViewController *twoVC = (twoViewController *)[mainStoryBoard instantiateViewControllerWithIdentifier:@"twovciden"];
+            ViewController2 *twoVC = (ViewController2 *)[mainStoryBoard instantiateViewControllerWithIdentifier:@"twovciden"];
             [self.navigationController pushViewController:twoVC animated:YES];
             
             break;
         }
         case 2:{
             
-            twoViewController *threeVC = (twoViewController *)[mainStoryBoard instantiateViewControllerWithIdentifier:@"threevciden"];
+            ViewController3 *threeVC = (ViewController3 *)[mainStoryBoard instantiateViewControllerWithIdentifier:@"threevciden"];
             [self.navigationController pushViewController:threeVC animated:YES];
             
             break;
         }
         case 3:{
             
-            FourViewController *threeVC = (FourViewController *)[mainStoryBoard instantiateViewControllerWithIdentifier:@"fourvciden"];
-            [self.navigationController pushViewController:threeVC animated:YES];
+            ViewController4 *viewController = (ViewController4 *)[mainStoryBoard instantiateViewControllerWithIdentifier:@"fourvciden"];
+            [self.navigationController pushViewController:viewController animated:YES];
             
             break;
         }
         case 4:{
-            FiveViewController *fiveVC = [FiveViewController new];
-            [self.navigationController pushViewController:fiveVC animated:YES];
+            
+            ViewController5 *viewController = [ViewController5 new];
+            [self.navigationController pushViewController:viewController animated:YES];
             
             break;
         }
         case 5:{
-            SixViewController *fiveVC = [SixViewController new];
-            [self.navigationController pushViewController:fiveVC animated:YES];
+            
+            ViewController6 *viewController = [ViewController6 new];
+            [self.navigationController pushViewController:viewController animated:YES];
             break;
         }
         case 6:{
             
-            SevenViewController *fiveVC = [SevenViewController new];
+            
+            ViewController7 *viewController = [ViewController7 new];
+            [self.navigationController pushViewController:viewController animated:YES];
+            break;
+        }
+        case 7:{
+            
+            ViewController8 *fiveVC = [ViewController8 new];
             [self.navigationController pushViewController:fiveVC animated:YES];
             break;
         }

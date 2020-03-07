@@ -1,16 +1,9 @@
-//
-//  FourViewController.m
-//  runtime
-//
-//  Created by qianjianeng on 16/4/15.
-//  Copyright © 2016年 SF. All rights reserved.
-//
 
-#import "FourViewController.h"
+#import "ViewController4.h"
 #import "Person.h"
 #import "Tool.h"
 #import <objc/runtime.h>
-@interface FourViewController ()
+@interface ViewController4 ()
 
 @property (nonatomic, strong) Person *person;
 @property (nonatomic, strong) Tool *tool;
@@ -18,7 +11,7 @@
 
 @end
 
-@implementation FourViewController
+@implementation ViewController4
 
 - (void)viewDidLoad {
     [super viewDidLoad];

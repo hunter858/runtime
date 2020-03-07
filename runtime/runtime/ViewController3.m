@@ -1,22 +1,16 @@
-//
-//  threeViewController.m
-//  runtime
-//
-//  Created by qianjianeng on 16/4/13.
-//  Copyright © 2016年 SF. All rights reserved.
-//
 
-#import "threeViewController.h"
+
+#import "ViewController3.h"
 #import "Person.h"
 #import <objc/runtime.h>
-@interface threeViewController ()
+@interface ViewController3 ()
 
 @property (nonatomic, strong) Person *person;
 @property (weak, nonatomic) IBOutlet UITextField *textview;
 
 @end
 
-@implementation threeViewController
+@implementation ViewController3
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,10 +28,12 @@
 
 - (IBAction)sayName:(id)sender {
     
-    self.textview.text = [_person sayName];
+    NSLog(@"方法交换后 sayName : %@",[_person sayName]);
+//    self.textview.text = [_person sayName];
     
 }
 - (IBAction)saySex:(id)sender {
+    NSLog(@"方法交换后 saySex : %@",[_person saySex]);
     self.textview.text = [_person saySex];;
 }
 
