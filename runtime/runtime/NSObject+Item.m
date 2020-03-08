@@ -55,9 +55,6 @@
                 // 字典转模型 user
                 value = [modalClass objectWithDict:value];
             }
-            
-            // 字典,user
-            //            NSLog(@"%@",key);
         }
         
         // 三级转换：NSArray中也是字典，把数组中的字典转换成模型.
@@ -90,7 +87,6 @@
         
         // 2.5 KVC字典转模型
         if (value) {
-            
             [objc setValue:value forKey:key];
         }
     }

@@ -3,9 +3,8 @@
 #import "ViewController1.h"
 #import "Person.h"
 #import <objc/runtime.h>
-#import "UIImageView+extension.h"
 
-@interface ViewController1 ()
+@interface ViewController1 ()<UIAlertViewDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *textfield;
 @property (nonatomic, strong) Person *person;
 @end
@@ -18,22 +17,29 @@
     self.person = [Person new];
     _person.name = @"big pengpeng";
     self.person.sex = @"man";
-    
+/* 获取属性列表*/
     [self getPropertyList];
+/* 获取方法列表*/
     [self getMethodList];
+/* 获取成员变量列表*/
     [self getIvarList];
+/* 获取协议列表*/
     [self getProtocolList];
+/* 获取类方法*/
     [self getClassMethod];
+/* 获取实例方法*/
     [self getInstanceMethod];
-    
+//
+/* 类扩展属性的调用*/
     [self.person updatePrivateName:@"pengpeng"];
-    
-    UIImageView *imageview = [[UIImageView alloc]init];
-    imageview.URLkey = @"我是一个假的URL";
-    NSLog(@" %@",imageview.URLkey);
-    
-    
+
+
+/* 获取协议列表*/
+    [self createAlertView];
 }
+
+
+
 /* 获取属性列表*/
 -(void)getPropertyList{
     
@@ -69,7 +75,7 @@
 
 -(void)getProtocolList{
     unsigned int count;
-    __unsafe_unretained Protocol **protocolList = class_copyProtocolList([Person class], &count);
+    __unsafe_unretained Protocol **protocolList = class_copyProtocolList([self class], &count);
     for (unsigned int i; i<count; i++) {
         Protocol *myProtocal = protocolList[i];
         const char *protocolName = protocol_getName(myProtocal);
@@ -126,6 +132,16 @@
     }
     NSLog(@"XiaoMing change name  is %@",self.person.name);
     self.textfield.text = self.self.person.name;
+}
+
+-(void)createAlertView{
+    
+    UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"title" message:@"message" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"comfirm", nil];
+    [alertView show];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    NSLog(@"select index %ld",buttonIndex);
 }
 
 - (IBAction)changename:(id)sender {

@@ -9,6 +9,7 @@
 #import "ViewController6.h"
 #import "ViewController7.h"
 #import "ViewController8.h"
+#import "ViewController9.h"
 @interface TableViewController ()
 
 @property (nonatomic, strong) NSArray *dataSource;
@@ -25,16 +26,19 @@
     //3：动态交换两个方法的实现
     //4.拦截并替换方法
     //5：在方法上增加额外功能
-    //6.实现NSCoding的自动归档和解档
-    //7.实现字典转模型的自动转换
+    //6.实现字典转模型的自动转换
+    //7.实现NSCoding的自动归档和解档
+    //8.解救程序崩溃的三步
+    //9.给分类添加一个属性
     _dataSource = @[@"动态变量控制",
                     @"动态添加方法",
                     @"动态交换两个方法的实现",
                     @"拦截并替换方法",
                     @"在方法上增加额外功能",
-                    @"实现NSCoding的自动归档和解档",
                     @"实现字典转模型的自动转换",
+                    @"实现NSCoding的自动归档和解档",
                     @"解救程序崩溃的第一步",
+                    @"给分类添加一个属性",
                     ];
 
     self.tableView.tableFooterView = [UIView new];
@@ -127,6 +131,12 @@
         case 7:{
             
             ViewController8 *fiveVC = [ViewController8 new];
+            [self.navigationController pushViewController:fiveVC animated:YES];
+            break;
+        }
+        case 8:{
+            
+            ViewController9 *fiveVC = [ViewController9 new];
             [self.navigationController pushViewController:fiveVC animated:YES];
             break;
         }

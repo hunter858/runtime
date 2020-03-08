@@ -10,6 +10,7 @@
 		4B205CE624134BFB006A26E7 /* Student+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B205CE024134BFB006A26E7 /* Student+AvoidCrash.m */; };
 		4B205CE724134BFB006A26E7 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B205CE224134BFB006A26E7 /* Student.m */; };
 		4B205CE824134BFB006A26E7 /* StudentTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B205CE324134BFB006A26E7 /* StudentTool.m */; };
+		4B205CEB24135090006A26E7 /* ViewController9.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B205CEA24135090006A26E7 /* ViewController9.m */; };
 		4B3F971C241246A400ADD14B /* UIImageView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F971B241246A400ADD14B /* UIImageView+extension.m */; };
 		4B3F9725241277EE00ADD14B /* ViewController8.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F9724241277EE00ADD14B /* ViewController8.m */; };
 		C205086D1CBD481F0026AC7A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205086C1CBD481F0026AC7A /* TableViewController.m */; };
@@ -41,6 +42,8 @@
 		4B205CE324134BFB006A26E7 /* StudentTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentTool.m; sourceTree = "<group>"; };
 		4B205CE424134BFB006A26E7 /* Student+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+AvoidCrash.h"; sourceTree = "<group>"; };
 		4B205CE524134BFB006A26E7 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		4B205CE924135090006A26E7 /* ViewController9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController9.h; sourceTree = "<group>"; };
+		4B205CEA24135090006A26E7 /* ViewController9.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController9.m; sourceTree = "<group>"; };
 		4B3F971A241246A400ADD14B /* UIImageView+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+extension.h"; sourceTree = "<group>"; };
 		4B3F971B241246A400ADD14B /* UIImageView+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+extension.m"; sourceTree = "<group>"; };
 		4B3F9723241277EE00ADD14B /* ViewController8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController8.h; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 				C288A6601CC10AEE00BC7B0C /* ViewController7.m */,
 				4B3F9723241277EE00ADD14B /* ViewController8.h */,
 				4B3F9724241277EE00ADD14B /* ViewController8.m */,
+				4B205CE924135090006A26E7 /* ViewController9.h */,
+				4B205CEA24135090006A26E7 /* ViewController9.m */,
 				4B205CDF24134BFB006A26E7 /* AvoidCrashModel */,
 			);
 			name = controllers;
@@ -279,6 +284,7 @@
 				C288A65E1CC10AE000BC7B0C /* ViewController6.m in Sources */,
 				C288A6611CC10AEE00BC7B0C /* ViewController7.m in Sources */,
 				4B3F9725241277EE00ADD14B /* ViewController8.m in Sources */,
+				4B205CEB24135090006A26E7 /* ViewController9.m in Sources */,
 				4B205CE624134BFB006A26E7 /* Student+AvoidCrash.m in Sources */,
 				C28FABAC1CBCE873007FB54C /* NSObject+Item.m in Sources */,
 				4B205CE724134BFB006A26E7 /* Student.m in Sources */,
