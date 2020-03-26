@@ -10,6 +10,9 @@
 #import "ViewController7.h"
 #import "ViewController8.h"
 #import "ViewController9.h"
+#import "ViewController10.h"
+#import "ViewController11.h"
+#import "ViewController12.h"
 @interface TableViewController ()
 
 @property (nonatomic, strong) NSArray *dataSource;
@@ -39,6 +42,9 @@
                     @"实现NSCoding的自动归档和解档",
                     @"解救程序崩溃的第一步",
                     @"给分类添加一个属性",
+                    @"NSURLSession",
+                    @"KVC & KVO",
+                    @"xxxx"
                     ];
 
     self.tableView.tableFooterView = [UIView new];
@@ -140,6 +146,24 @@
             [self.navigationController pushViewController:fiveVC animated:YES];
             break;
         }
+        case 9:{
+           
+           ViewController10 *fiveVC = [ViewController10 new];
+           [self.navigationController pushViewController:fiveVC animated:YES];
+           break;
+       }
+        case 10:{
+                      
+          ViewController11 *fiveVC = [ViewController11 new];
+          [self.navigationController pushViewController:fiveVC animated:YES];
+          break;
+      }
+        case 11:{
+                  
+          ViewController12 *fiveVC = [ViewController12 new];
+          [self.navigationController pushViewController:fiveVC animated:YES];
+          break;
+      }
 
             
         default:

@@ -26,6 +26,10 @@
 }
 
 
+- (IBAction)xxx:(id)sender {
+}
 
+- (IBAction)yyy:(id)sender {
+}
 
 @end

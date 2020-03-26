@@ -11,8 +11,13 @@
 		4B205CE724134BFB006A26E7 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B205CE224134BFB006A26E7 /* Student.m */; };
 		4B205CE824134BFB006A26E7 /* StudentTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B205CE324134BFB006A26E7 /* StudentTool.m */; };
 		4B205CEB24135090006A26E7 /* ViewController9.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B205CEA24135090006A26E7 /* ViewController9.m */; };
+		4B205CF1241893BD006A26E7 /* ViewController10.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B205CF0241893BD006A26E7 /* ViewController10.m */; };
 		4B3F971C241246A400ADD14B /* UIImageView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F971B241246A400ADD14B /* UIImageView+extension.m */; };
 		4B3F9725241277EE00ADD14B /* ViewController8.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F9724241277EE00ADD14B /* ViewController8.m */; };
+		4B46A277242B63EB00AA49DB /* ViewController11.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B46A276242B63EB00AA49DB /* ViewController11.m */; };
+		4B46A27A242B640000AA49DB /* ViewController12.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B46A279242B640000AA49DB /* ViewController12.m */; };
+		4B46A280242B67B200AA49DB /* KVOObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B46A27F242B67B200AA49DB /* KVOObject.m */; };
+		4B46A283242B7D1200AA49DB /* KVCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B46A282242B7D1200AA49DB /* KVCObject.m */; };
 		C205086D1CBD481F0026AC7A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205086C1CBD481F0026AC7A /* TableViewController.m */; };
 		C288A6581CC10AC900BC7B0C /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = C288A6571CC10AC900BC7B0C /* ViewController4.m */; };
 		C288A65B1CC10AD400BC7B0C /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = C288A65A1CC10AD400BC7B0C /* ViewController5.m */; };
@@ -44,10 +49,20 @@
 		4B205CE524134BFB006A26E7 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		4B205CE924135090006A26E7 /* ViewController9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController9.h; sourceTree = "<group>"; };
 		4B205CEA24135090006A26E7 /* ViewController9.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController9.m; sourceTree = "<group>"; };
+		4B205CEF241893BD006A26E7 /* ViewController10.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController10.h; sourceTree = "<group>"; };
+		4B205CF0241893BD006A26E7 /* ViewController10.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController10.m; sourceTree = "<group>"; };
 		4B3F971A241246A400ADD14B /* UIImageView+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+extension.h"; sourceTree = "<group>"; };
 		4B3F971B241246A400ADD14B /* UIImageView+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+extension.m"; sourceTree = "<group>"; };
 		4B3F9723241277EE00ADD14B /* ViewController8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController8.h; sourceTree = "<group>"; };
 		4B3F9724241277EE00ADD14B /* ViewController8.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController8.m; sourceTree = "<group>"; };
+		4B46A275242B63EB00AA49DB /* ViewController11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController11.h; sourceTree = "<group>"; };
+		4B46A276242B63EB00AA49DB /* ViewController11.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController11.m; sourceTree = "<group>"; };
+		4B46A278242B640000AA49DB /* ViewController12.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController12.h; sourceTree = "<group>"; };
+		4B46A279242B640000AA49DB /* ViewController12.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController12.m; sourceTree = "<group>"; };
+		4B46A27E242B67B200AA49DB /* KVOObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOObject.h; sourceTree = "<group>"; };
+		4B46A27F242B67B200AA49DB /* KVOObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOObject.m; sourceTree = "<group>"; };
+		4B46A281242B7D1200AA49DB /* KVCObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVCObject.h; sourceTree = "<group>"; };
+		4B46A282242B7D1200AA49DB /* KVCObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCObject.m; sourceTree = "<group>"; };
 		C205086B1CBD481F0026AC7A /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		C205086C1CBD481F0026AC7A /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		C288A6561CC10AC900BC7B0C /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
@@ -102,12 +117,12 @@
 		4B205CDF24134BFB006A26E7 /* AvoidCrashModel */ = {
 			isa = PBXGroup;
 			children = (
-				4B205CE024134BFB006A26E7 /* Student+AvoidCrash.m */,
-				4B205CE124134BFB006A26E7 /* StudentTool.h */,
-				4B205CE224134BFB006A26E7 /* Student.m */,
-				4B205CE324134BFB006A26E7 /* StudentTool.m */,
 				4B205CE424134BFB006A26E7 /* Student+AvoidCrash.h */,
+				4B205CE024134BFB006A26E7 /* Student+AvoidCrash.m */,
 				4B205CE524134BFB006A26E7 /* Student.h */,
+				4B205CE224134BFB006A26E7 /* Student.m */,
+				4B205CE124134BFB006A26E7 /* StudentTool.h */,
+				4B205CE324134BFB006A26E7 /* StudentTool.m */,
 			);
 			path = AvoidCrashModel;
 			sourceTree = "<group>";
@@ -129,6 +144,10 @@
 				C2BEFF9E1CC256F90047CA1F /* UIButton+count.m */,
 				4B3F971A241246A400ADD14B /* UIImageView+extension.h */,
 				4B3F971B241246A400ADD14B /* UIImageView+extension.m */,
+				4B46A27E242B67B200AA49DB /* KVOObject.h */,
+				4B46A27F242B67B200AA49DB /* KVOObject.m */,
+				4B46A281242B7D1200AA49DB /* KVCObject.h */,
+				4B46A282242B7D1200AA49DB /* KVCObject.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -156,6 +175,12 @@
 				4B3F9724241277EE00ADD14B /* ViewController8.m */,
 				4B205CE924135090006A26E7 /* ViewController9.h */,
 				4B205CEA24135090006A26E7 /* ViewController9.m */,
+				4B205CEF241893BD006A26E7 /* ViewController10.h */,
+				4B205CF0241893BD006A26E7 /* ViewController10.m */,
+				4B46A275242B63EB00AA49DB /* ViewController11.h */,
+				4B46A276242B63EB00AA49DB /* ViewController11.m */,
+				4B46A278242B640000AA49DB /* ViewController12.h */,
+				4B46A279242B640000AA49DB /* ViewController12.m */,
 				4B205CDF24134BFB006A26E7 /* AvoidCrashModel */,
 			);
 			name = controllers;
@@ -279,7 +304,11 @@
 				C28FABAF1CBCEB82007FB54C /* HGUser.m in Sources */,
 				C28D627F1CBDE318001D0518 /* ViewController2.m in Sources */,
 				C2BEFF9F1CC256F90047CA1F /* UIButton+count.m in Sources */,
+				4B46A283242B7D1200AA49DB /* KVCObject.m in Sources */,
+				4B46A27A242B640000AA49DB /* ViewController12.m in Sources */,
+				4B46A277242B63EB00AA49DB /* ViewController11.m in Sources */,
 				4B205CE824134BFB006A26E7 /* StudentTool.m in Sources */,
+				4B46A280242B67B200AA49DB /* KVOObject.m in Sources */,
 				C2DEA99B1CBBB8970024C7F7 /* AppDelegate.m in Sources */,
 				C288A65E1CC10AE000BC7B0C /* ViewController6.m in Sources */,
 				C288A6611CC10AEE00BC7B0C /* ViewController7.m in Sources */,
@@ -295,6 +324,7 @@
 				C2DEA9981CBBB8970024C7F7 /* main.m in Sources */,
 				C2BEFF991CC2323F0047CA1F /* Person.m in Sources */,
 				C288A6581CC10AC900BC7B0C /* ViewController4.m in Sources */,
+				4B205CF1241893BD006A26E7 /* ViewController10.m in Sources */,
 				C28D627C1CBDE305001D0518 /* ViewController1.m in Sources */,
 				C2BEFF9C1CC23EB70047CA1F /* Tool.m in Sources */,
 			);
